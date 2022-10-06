@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGridThreadServer", "DotGridThreadServer.csproj", "{A045746E-30E6-467F-BD48-56C1AF6A7210}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Debug.ActiveCfg = Debug|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Debug.Build.0 = Debug|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Release.ActiveCfg = Release|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGridCrypt", "DotGridCrypt.csproj", "{D6B4EE1D-83CF-4B83-AE6B-0FD90B6BE1A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileBuilder", "..\FileBuilder\FileBuilder.csproj", "{99C17AB5-A732-4554-88E9-03D7ED543CB4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGrid", "..\DotGrid\DotGrid.csproj", "{E7580765-B2E2-4B31-BA47-3AA5A747067D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D6B4EE1D-83CF-4B83-AE6B-0FD90B6BE1A7}.Debug.ActiveCfg = Debug|.NET
+		{D6B4EE1D-83CF-4B83-AE6B-0FD90B6BE1A7}.Debug.Build.0 = Debug|.NET
+		{D6B4EE1D-83CF-4B83-AE6B-0FD90B6BE1A7}.Release.ActiveCfg = Release|.NET
+		{D6B4EE1D-83CF-4B83-AE6B-0FD90B6BE1A7}.Release.Build.0 = Release|.NET
+		{99C17AB5-A732-4554-88E9-03D7ED543CB4}.Debug.ActiveCfg = Debug|.NET
+		{99C17AB5-A732-4554-88E9-03D7ED543CB4}.Debug.Build.0 = Debug|.NET
+		{99C17AB5-A732-4554-88E9-03D7ED543CB4}.Release.ActiveCfg = Release|.NET
+		{99C17AB5-A732-4554-88E9-03D7ED543CB4}.Release.Build.0 = Release|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Debug.ActiveCfg = Debug|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Debug.Build.0 = Debug|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Release.ActiveCfg = Release|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
