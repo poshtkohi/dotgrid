@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGridThreadModel", "DotGridThreadModel\DotGridThreadModel.csproj", "{4C12DBC3-0ADE-4441-BB19-25BBDFA96D67}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStream", "FileStream\FileStream.csproj", "{4F4CE09A-6C36-4A78-A5F0-46A7C2CBA2BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpload", "FileUpload\FileUpload.csproj", "{312D17BC-3B1D-4359-BA01-2679131757A5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4C12DBC3-0ADE-4441-BB19-25BBDFA96D67}.Debug.ActiveCfg = Debug|.NET
+		{4C12DBC3-0ADE-4441-BB19-25BBDFA96D67}.Debug.Build.0 = Debug|.NET
+		{4C12DBC3-0ADE-4441-BB19-25BBDFA96D67}.Release.ActiveCfg = Release|.NET
+		{4C12DBC3-0ADE-4441-BB19-25BBDFA96D67}.Release.Build.0 = Release|.NET
+		{4F4CE09A-6C36-4A78-A5F0-46A7C2CBA2BE}.Debug.ActiveCfg = Debug|.NET
+		{4F4CE09A-6C36-4A78-A5F0-46A7C2CBA2BE}.Debug.Build.0 = Debug|.NET
+		{4F4CE09A-6C36-4A78-A5F0-46A7C2CBA2BE}.Release.ActiveCfg = Release|.NET
+		{4F4CE09A-6C36-4A78-A5F0-46A7C2CBA2BE}.Release.Build.0 = Release|.NET
+		{312D17BC-3B1D-4359-BA01-2679131757A5}.Debug.ActiveCfg = Debug|.NET
+		{312D17BC-3B1D-4359-BA01-2679131757A5}.Debug.Build.0 = Debug|.NET
+		{312D17BC-3B1D-4359-BA01-2679131757A5}.Release.ActiveCfg = Release|.NET
+		{312D17BC-3B1D-4359-BA01-2679131757A5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
