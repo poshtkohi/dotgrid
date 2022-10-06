@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGrid", "DotGrid.csproj", "{E7580765-B2E2-4B31-BA47-3AA5A747067D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "..\NewDotSec\Server\Server.csproj", "{74491CFE-578D-4ECC-A7D8-38C98AF21FDE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "..\NewDotSec\Client\Client.csproj", "{8A03C2B4-AE22-4A9D-BEC6-E6957ABA525D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotgrid-url-copy", "..\dotgrid-url-copy\dotgrid-url-copy.csproj", "{3E63ACBA-6E31-49E8-B97B-824DF43440B9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotDfsServer", "..\DotDfsServer\DotDfsServer.csproj", "{43037481-F33F-4E02-ABC6-BD622C09DAB5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotGridThreadServer", "..\DotGridThreadServer\DotGridThreadServer.csproj", "{A045746E-30E6-467F-BD48-56C1AF6A7210}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Debug.ActiveCfg = Debug|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Debug.Build.0 = Debug|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Release.ActiveCfg = Release|.NET
+		{E7580765-B2E2-4B31-BA47-3AA5A747067D}.Release.Build.0 = Release|.NET
+		{74491CFE-578D-4ECC-A7D8-38C98AF21FDE}.Debug.ActiveCfg = Debug|.NET
+		{74491CFE-578D-4ECC-A7D8-38C98AF21FDE}.Debug.Build.0 = Debug|.NET
+		{74491CFE-578D-4ECC-A7D8-38C98AF21FDE}.Release.ActiveCfg = Release|.NET
+		{74491CFE-578D-4ECC-A7D8-38C98AF21FDE}.Release.Build.0 = Release|.NET
+		{8A03C2B4-AE22-4A9D-BEC6-E6957ABA525D}.Debug.ActiveCfg = Debug|.NET
+		{8A03C2B4-AE22-4A9D-BEC6-E6957ABA525D}.Debug.Build.0 = Debug|.NET
+		{8A03C2B4-AE22-4A9D-BEC6-E6957ABA525D}.Release.ActiveCfg = Release|.NET
+		{8A03C2B4-AE22-4A9D-BEC6-E6957ABA525D}.Release.Build.0 = Release|.NET
+		{3E63ACBA-6E31-49E8-B97B-824DF43440B9}.Debug.ActiveCfg = Debug|.NET
+		{3E63ACBA-6E31-49E8-B97B-824DF43440B9}.Debug.Build.0 = Debug|.NET
+		{3E63ACBA-6E31-49E8-B97B-824DF43440B9}.Release.ActiveCfg = Release|.NET
+		{3E63ACBA-6E31-49E8-B97B-824DF43440B9}.Release.Build.0 = Release|.NET
+		{43037481-F33F-4E02-ABC6-BD622C09DAB5}.Debug.ActiveCfg = Debug|.NET
+		{43037481-F33F-4E02-ABC6-BD622C09DAB5}.Debug.Build.0 = Debug|.NET
+		{43037481-F33F-4E02-ABC6-BD622C09DAB5}.Release.ActiveCfg = Release|.NET
+		{43037481-F33F-4E02-ABC6-BD622C09DAB5}.Release.Build.0 = Release|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Debug.ActiveCfg = Debug|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Debug.Build.0 = Debug|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Release.ActiveCfg = Release|.NET
+		{A045746E-30E6-467F-BD48-56C1AF6A7210}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

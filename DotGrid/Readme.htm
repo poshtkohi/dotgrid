@@ -1,0 +1,397 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word"
+	xmlns="http://www.w3.org/TR/REC-html40">
+	<head>
+		<title>This readme guide you to use DotGrid.DotDFS.</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<meta name="ProgId" content="FrontPage.Editor.Document">
+		<meta name="Generator" content="Microsoft FrontPage 6.0">
+		<meta name="Originator" content="Microsoft Word 11"> <!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Alireza</o:Author>
+  <o:LastAuthor>Alireza</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>32</o:TotalTime>
+  <o:Created>2006-02-17T16:35:00Z</o:Created>
+  <o:LastSaved>2006-02-17T16:35:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1450</o:Words>
+  <o:Characters>8266</o:Characters>
+  <o:Company>DotGrid</o:Company>
+  <o:Lines>68</o:Lines>
+  <o:Paragraphs>19</o:Paragraphs>
+  <o:CharactersWithSpaces>9697</o:CharactersWithSpaces>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->  <!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+		<style> <!-- /* Font Definitions */ @font-face {font-family:Verdana; panose-1:2 11 6 4 3 5 4 4 2 4; mso-font-charset:0; mso-generic-font-family:swiss; mso-font-pitch:variable; mso-font-signature:536871559 0 0 0 415 0;}
+	/* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal {mso-style-parent:""; margin:0in; margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:12.0pt; font-family:"Times New Roman"; mso-fareast-font-family:"Times New Roman";}
+	h2 {margin-top:12.0pt; margin-right:0in; margin-bottom:12.0pt; margin-left:0in; mso-pagination:widow-orphan; mso-outline-level:2; font-size:16.0pt; font-family:Verdana; color:black;}
+	h3 {margin-top:12.0pt; margin-right:0in; margin-bottom:12.0pt; margin-left:0in; mso-pagination:widow-orphan; mso-outline-level:3; font-size:12.0pt; font-family:Verdana; color:black;}
+	a:link, span.MsoHyperlink {color:blue; text-decoration:underline; text-underline:single;}
+	a:visited, span.MsoHyperlinkFollowed {color:purple; text-decoration:underline; text-underline:single;}
+	pre {margin-top:6.0pt; margin-right:24.0pt; margin-bottom:6.0pt; margin-left:24.0pt; mso-pagination:widow-orphan; background:#BAD4FF; border:none; mso-border-alt:solid #02007F .75pt; padding:0in; mso-padding-alt:6.0pt 6.0pt 6.0pt 6.0pt; font-size:10.0pt; font-family:"Courier New"; mso-fareast-font-family:"Times New Roman"; color:black;}
+	tt {mso-ansi-font-size:12.0pt; mso-bidi-font-size:12.0pt; font-family:"Courier New"; mso-ascii-font-family:"Courier New"; mso-fareast-font-family:"Times New Roman"; mso-hansi-font-family:"Courier New"; mso-bidi-font-family:"Courier New";}
+	span.emphasis {mso-style-name:emphasis;}
+	span.SpellE {mso-style-name:""; mso-spl-e:yes;}
+	span.GramE {mso-style-name:""; mso-gram-e:yes;}
+	@page Section1 {size:8.5in 11.0in; margin:1.0in 1.25in 1.0in 1.25in; mso-header-margin:.5in; mso-footer-margin:.5in; mso-paper-source:0;}
+	div.Section1 {page:Section1;}
+	/* List Definitions */ @list l0 {mso-list-id:625040261; mso-list-template-ids:-1321411388;}
+	@list l0:level1 {mso-level-number-format:bullet; mso-level-text:\F0B7; mso-level-tab-stop:.5in; mso-level-number-position:left; text-indent:-.25in; mso-ansi-font-size:10.0pt; font-family:Symbol;}
+	@list l1 {mso-list-id:1395346645; mso-list-template-ids:-1127988360;}
+	@list l1:level1 {mso-level-number-format:bullet; mso-level-text:\F0B7; mso-level-tab-stop:.5in; mso-level-number-position:left; text-indent:-.25in; mso-ansi-font-size:10.0pt; font-family:Symbol;}
+	ol {margin-bottom:0in;}
+	ul {margin-bottom:0in;}
+	--></style>
+		<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+	</head>
+	<body lang="EN-US" link="#0000ff" vlink="#800080" style='tab-interval:.5in'>
+		<div class="Section1">
+			<p style='TEXT-ALIGN:justify'>
+				&nbsp;</p>
+			<p style='TEXT-ALIGN:justify'>
+				<font face="Times New Roman" style="FONT-WEIGHT: 700; FONT-SIZE: 20pt">This readme 
+					guide you to use DotGrid.DotDFS.</font></p>
+			<p style='TEXT-ALIGN:justify'>
+				<font face="Times New Roman" style="FONT-SIZE: 12pt">
+					<o:p>&nbsp;</o:p></font></p>
+			<p style='TEXT-ALIGN:justify'>
+				<font face="Times New Roman" style="FONT-SIZE: 12pt">DotDFS is a flexible protocol 
+					that provides a substantial infrastructure for resource sharing and 
+					high-throughput file transfer on current Grid sub-structures and on our DotGrid 
+					platform. Our system can be run in both Windows and Linux machines. You can use 
+					from our platform in two ways, one programmatically with our extensible APIs 
+					(for more information in this regard, see the samples and DotGrid Framework SDK 
+					Documentation v1) and another using dotgrid-url-copy Client Utility. The 
+					dotgrid-url-copy is a client utility similar to globus-url-copy utility 
+					available in Globus Toolkit 4.<span style='mso-spacerun:yes'>&nbsp; </span>For 
+					testing DotDFS, first you must run DotGrid.DotDFS servers on your favorite 
+					machines that have <a href="http://msdn.microsoft.com/netframework/">
+						<span style="TEXT-DECORATION: none">Microsoft .NET 1.1</span></a> for 
+					Windows platforms (or newer versions) or <a href="http://www.mono-project.com/">
+						<span style="TEXT-DECORATION: none">MONO
+.NET 1.1</span></a> for Linux platforms (or newer versions) installed. After running the servers, 
+					you can use dotgrid-url-copy client utility for running DotDFS client program. 
+					The dotgrid-url-copy introduces very commands which can help you for 
+					transferring your large files via using parallel TCP connections with 
+					high-throughput and high-performance directory tree transfers recursively. You 
+					can tell to dotgrid-url-copy that all TCP channels must be forced to be secure 
+					based on DotGrid.DotSec protocol similar to HTTPS protocol over SSL3 or TLS1 
+					for your browser in when secure web surfing.</font></p>
+			<p class="MsoNormal" style='TEXT-ALIGN:justify'><o:p>&nbsp;</o:p></p>
+			<h2><span lang="EN" style='FONT-SIZE:13.5pt;mso-ansi-language:EN'>Command syntax<o:p></o:p></span></h2>
+			<p class="MsoNormal" style='MARGIN:12pt 0in'><span lang="EN" style='FONT-SIZE:10pt;FONT-FAMILY:Verdana;mso-ansi-language:EN'>The basic syntax </span><font face="Verdana" size="2">dotgrid-url-copy
+				</font>
+				<span lang="EN" style='FONT-SIZE:10pt;FONT-FAMILY:Verdana;mso-ansi-language:EN'>is: <o:p></o:p></span></p>
+			<div style='BORDER-RIGHT:#02007f 1pt solid; PADDING-RIGHT:6pt; BORDER-TOP:#02007f 1pt solid; PADDING-LEFT:6pt; BACKGROUND:#bad4ff; PADDING-BOTTOM:6pt; MARGIN-LEFT:24pt; BORDER-LEFT:#02007f 1pt solid; MARGIN-RIGHT:24pt; PADDING-TOP:6pt; BORDER-BOTTOM:#02007f 1pt solid; mso-border-alt:solid #02007F .5pt; mso-element:para-border-div'><pre style='BORDER-RIGHT:medium none; PADDING-RIGHT:0in; BORDER-TOP:medium none; PADDING-LEFT:0in; BACKGROUND:#bad4ff; PADDING-BOTTOM:0in; MARGIN:6pt 0in; BORDER-LEFT:medium none; PADDING-TOP:0in; BORDER-BOTTOM:medium none; mso-border-alt:solid #02007F .5pt; mso-padding-alt:6.0pt 6.0pt 6.0pt 6.0pt'><span class="GramE"><span style="BACKGROUND-POSITION: 0px 0px">dotgrid</span></span><span
+class=SpellE><span class=GramE><span lang=EN style='mso-ansi-language:EN'>-url-copy</span></span></span><span
+lang=EN> -hostname <span class=SpellE>remoteHost</span> -[upload|download] </span><span class=SpellE><span class=GramE><span
+lang=EN style='mso-ansi-language:EN'>localPath,</span></span><span lang=EN
+style='mso-ansi-language:EN'>remotePath</span></span><span lang=EN
+style='mso-ansi-language:EN'> -[optional command line switches] <o:p></o:p></span></pre>
+			</div>
+			<p class="MsoNormal"><span class="GramE"><span lang="EN" style='FONT-SIZE:10pt;
+FONT-FAMILY:Verdana;
+mso-ansi-language:EN'>where</span>
+				</span><span lang="EN" style='FONT-SIZE:10pt;FONT-FAMILY:Verdana;mso-ansi-language:EN'>: <o:p></o:p></span></p>
+			<table class="MsoNormalTable" border="1" cellpadding="0" style='mso-cellspacing:1.5pt'>
+				<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:3pt 0in 6pt'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>[optional
+  command line switches]<span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:3pt 0in 6pt'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>See
+  Command line options below for a list of available options. <span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+				</tr>
+				<tr style='mso-yfti-irow:1'>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font face="Verdana" size="2"><span lang="EN">
+									<span class="SpellE">remoteHost</span>
+								</span></font></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">S</span></font><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>pecifies IP or domain name of the destination </span></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>
+	DotDFS 
+      server 
+	for transferring files from or to it. <span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+				</tr>
+				<tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font face="Verdana" size="2"><span class="SpellE"><span lang="EN" style='mso-ansi-language:EN'> -upload</span>
+								</span></font></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style="MARGIN: 12pt 0in">
+							<span style="FONT-SIZE: 10pt; FONT-FAMILY: Verdana">Uploads</span><font face="Verdana" size="2">
+								the specified source file or directory tree to</font></p>
+						<p class="MsoNormal" style="MARGIN: 12pt 0in">
+							<font face="Verdana" size="2">&nbsp;destination DotDFS server.</font></p>
+					</td>
+				</tr>
+				<TR>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font face="Verdana" size="2"><span class="SpellE"><span lang="EN" style='mso-ansi-language:EN'> -download</span>
+								</span></font></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">D</span></font><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>ownloads the specified remote source file or directory</span></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>&nbsp;tree 
+	from destination DotDFS server. <span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+				</TR>
+				<TR>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font face="Verdana" size="2"><span class="SpellE"><span class="GramE"><span lang="EN" style='mso-ansi-language:EN'>localPath</span>
+									</span>
+								</span></font></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style="MARGIN: 12pt 0in"><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>Specifies
+  local file name or directory name. <span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+				</TR>
+				<TR>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font face="Verdana" size="2"><span class="SpellE"><span lang="EN" style='mso-ansi-language:EN'>remotePath</span>
+								</span></font></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>Specifies
+  remote file name or directory name. <span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+				</TR>
+			</table>
+			<h3><span lang="EN" style='FONT-SIZE:10pt;COLOR:#cc0000;mso-ansi-language:EN'>Note<o:p></o:p></span></h3>
+			<p class="MsoNormal" style='MARGIN:12pt 0in'><span lang="EN" style='FONT-SIZE:10pt;FONT-FAMILY:Verdana;mso-ansi-language:EN'>Any <span class="GramE">path </span>specifying a directory must end with
+<b>\ </b>in Windows and <b>/ </b>in Linux and Unix.<span style='COLOR:black'>
+						<o:p></o:p>
+					</span></span></p>
+			<h2><a name="commandlineoptions"></a><span lang="EN" style='FONT-SIZE:13.5pt;
+mso-ansi-language:EN'>Command line options<o:p></o:p></span></h2>
+			<table class="MsoNormalTable" border="1" cellpadding="0" style='mso-cellspacing:1.5pt'>
+				<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>
+	-help <span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>Prints
+  help.<span style='COLOR:black'><o:p></o:p>
+								</span></span></p>
+					</td>
+				</tr>
+				<tr style='mso-yfti-irow:1'>
+					<td valign="top">
+						<p class="MsoNormal"><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>-p 
+	&lt;parallelism&gt;</span></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">
+	Specifies number of TCP parallel connections for increasing </span></font></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">and 
+	aggregating used TCP bandwidth in networks. This option</span></font></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">&nbsp;increase 
+	performance in both in when large file transfers and</span></font></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">&nbsp;directory 
+	tree transfers, significantly. </span></font></p>
+					</td>
+				</tr>
+				<tr style='mso-yfti-irow:2'>
+					<td valign="top">
+						<p class="MsoNormal"><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>-secure
+  <span style='COLOR:black'><o:p>&nbsp;&nbsp;&nbsp;&nbsp; </o:p>
+								</span></span></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">With 
+	this parameter all data connections will be forced to </span></font></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">be 
+	secure based on DotSec security layer protocol</span></font></p>
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">
+	(Default is non-secure).</span></font></p>
+					</td>
+				</tr>
+				<tr style='mso-yfti-irow:3'>
+					<td valign="top">
+						<p class="MsoNormal"><span style='FONT-SIZE:10pt;FONT-FAMILY:Verdana'>-tbs <span style='COLOR:black'><o:p>
+	&lt;size&gt;</o:p>
+								</span></span></p>
+					</td>
+					<td valign="top">
+						<p class="MsoNormal" style='MARGIN:12pt 0in'><font size="2"><span style="FONT-FAMILY: Verdana">
+	Specifies the size (in bytes) of the TCP buffer to be used</span></font><font size="2"><span style="FONT-FAMILY: Verdana">by</span></font></p>
+						<P class="MsoNormal" style="MARGIN: 12pt 0in"><FONT size="2"><SPAN style="FONT-FAMILY: Verdana">the underlying&nbsp;DotDFS TCP 
+      transfer&nbsp;channels. This is critical </SPAN></FONT></P>
+						<P class="MsoNormal" style="MARGIN: 12pt 0in"><FONT size="2"><SPAN style="FONT-FAMILY: Verdana">to good</SPAN></FONT><font size="2"><span style="FONT-FAMILY: Verdana">&nbsp;performance 
+	over the WAN. <br>
+&nbsp;</span></font></P>
+					</td>
+				</tr>
+			</table>
+			<p class="MsoNormal" style='TEXT-ALIGN:justify'><span style='mso-spacerun:yes'></span>&nbsp;</p>
+		</div>
+		<div id="outer_wrapper">
+			<div id="wrapper">
+				<div id="container">
+					<div id="content">
+						<div class="refentry">
+							<div class="refsect1">
+								<div class="refsect2">
+									<div class="refsect3">
+										<h4>How do I choose a value for the TCP buffer size (-tbs) option?</h4>
+										<p>The value you should pick for the TCP buffer size (-tbs) depends on how fast you 
+											want to go (your bandwidth) and how far you are moving the data (as measured by 
+											the Round Trip Time (RTT) or the time it takes a packet to get to the 
+											destination and back.
+										</p>
+										<p>To calculate the value for -tbs, use the following formula (this assumes that 
+											Mega means 1000^2 rather than 1024^2, which is typical for bandwidth):</p>
+										<p>-tbs = bandwidth in Megabits per second (Mbs) * RTT in milliseconds (ms) * 1000 
+											/ 8</p>
+										<p>As an example, if you are using fast ethernet (100 Mbs) and the RTT was 50 ms it 
+											would be:</p>
+										<p>-tbs = 100 * 50 * 1000 / 8 = 625,000 bytes.</p>
+										<p>So, how do you come up with values for bandwidth and RTT? To determine RTT, use 
+											either ping or traceroute. They both list RTT values.</p>
+										<p>&nbsp;</p>
+										<div class="note" style="MARGIN-LEFT: 0.5in; MARGIN-RIGHT: 0.5in">
+											<h3 class="title">Note</h3>
+											<p>You must be on one end of the transfer and ping the other end. This means that 
+												if you are doing a third party transfer you have to run the ping or traceroute 
+												between the two server hosts, not from your client.</p>
+										</div>
+										<p>The bandwidth is a little trickier. Any point in the network can be the 
+											bottleneck, so you either need to talk with your network engineers to find out 
+											what the bottleneck link is or just assume that your host is the bottleneck and 
+											use the speed of your network interface card (NIC).</p>
+										<div class="note" style="MARGIN-LEFT: 0.5in; MARGIN-RIGHT: 0.5in">
+											<h3 class="title">Note</h3>
+											<p>The value you pick for -tbs limits the top speed you can achieve. You will NOT 
+												get bandwidth any higher than what you used in the calculation (assuming the 
+												RTT is actually what you specified; it varies a little with network 
+												conditions). So, if for some reason you want to limit the bandwidth you get, 
+												you can do that by judicious choice of -tbs values.</p>
+										</div>
+										<p>So where does this formula come from? Because it uses the bandwidth and the RTT 
+											(also known as the latency or delay) it is called the
+											<span class="emphasis">
+												<i>bandwidth delay product</i></span>. The very simple explanation is this: 
+											TCP is a reliable protocol. It must save a copy of everything it sends out over 
+											the network until the other end acknowledges that it has been received.</p>
+										<p>As a simple example, if I can put one byte per second onto the network, and it 
+											takes 10 seconds for that byte to get there, and 10 seconds for the 
+											acknowledgment to get back (RTT = 20 seconds), then I would need at least 20 
+											bytes of storage. Then, hopefully, by the time I am ready to send byte 21, I 
+											have received an acknowledgement for byte 1 and I can free that space in my 
+											buffer. If you want a more detailed explanation, try the following links on TCP 
+											tuning:</p>
+										<div class="itemizedlist">
+											<ul type="disc">
+												<li>
+													<a target="_top" href="http://www.psc.edu/networking/perf_tune.html">http://www.psc.edu/networking/perf_tune.html</a>
+												<li>
+													<a target="_top" href="http://www-didc.lbl.gov/TCP-tuning/">http://www-didc.lbl.gov/TCP-tuning/</a>
+												<li>
+													<a target="_top" href="http://www.ncne.nlanr.net/research/tcp/">http://www.ncne.nlanr.net/research/tcp/</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="refsect3">
+										<h4>How do I choose a value for the parallelism (-p) option?</h4>
+										<p>For most instances, using 4 streams is a very good rule of thumb. Unfortunately, 
+											there is not a good formula for picking an exact answer. The shape of the graph 
+											shown here is very characteristic in LAN tests:
+										</p>
+										<div id="outer_wrapper0">
+											<div id="wrapper0">
+												<div id="container0">
+													<div id="content0">
+														<div class="refentry">
+															<div class="refsect1">
+																<div class="refsect2">
+																	<div class="refsect3">
+																		<img border="0" src="Readme1.gif"><p>
+																			You get a strong, nearly linear, increase in bandwidth, then a sharp knee, 
+																			after which additional streams have very little impact. Higher bandwidth, 
+																			longer round trip times, and more congestion in the network (which you usually 
+																			can only guess at based on how applications are behaving) will move the knee 
+																			higher (more streams needed).
+																		</p>
+																		<p>&nbsp;</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="outer_wrapper1">
+			<div id="footer">
+				<p align="center">Comments? <a href="mailto:alireza_electronics_net@yahoo.com?subject=dotgrid-url-copy">
+						alireza_electronics_net@yahoo.com</a></p>
+				<p align="center">All rights reserved to DotGrid team<font face="Times New Roman"> ©</font>
+					2005-2006.</p>
+			</div>
+		</div>
+	</body>
+</html>
